@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33698107132883340}
   - component: {fileID: 23200480823526062}
   m_Layer: 0
-  m_Name: Low Poly Sword Export
+  m_Name: Low Poly Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33100983438891118}
   - component: {fileID: 23453569770802738}
   m_Layer: 0
-  m_Name: LeftHand
+  m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 33655548721479752}
   - component: {fileID: 23825580125252424}
   m_Layer: 0
-  m_Name: RightHand
+  m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1634639219543642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: -4.03, y: 1.06, z: -4.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4829063100297226}
@@ -118,7 +118,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1505377405531608}
   m_LocalRotation: {x: -0.55212253, y: -0.09882255, z: 0.015178536, w: 0.8277467}
-  m_LocalPosition: {x: 0.24, y: -0.6, z: -0.21}
+  m_LocalPosition: {x: 0.169, y: -0.61, z: -0.221}
   m_LocalScale: {x: 13.681767, y: 10.668317, z: 10.668317}
   m_Children: []
   m_Father: {fileID: 4034269313160876}
@@ -313,12 +313,12 @@ Rigidbody:
   m_GameObject: {fileID: 1634639219543642}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &114179582678888546
 MonoBehaviour:
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 535b90ded47254d4283a52f08e779ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: 5
+  Velocity: 2.5
   TurnSpeed: 10
 --- !u!136 &136881333767782980
 CapsuleCollider:

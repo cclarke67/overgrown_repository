@@ -19,7 +19,7 @@ public class FixedCameraMove : MonoBehaviour {
 
 
     void Start () {
-        _rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>();      
 	}
 
     void Update()
@@ -30,6 +30,12 @@ public class FixedCameraMove : MonoBehaviour {
         { anyPlayerInput = false; return; }
         else
         { anyPlayerInput = true; }
+
+
+        if (Input.GetButtonDown("Fire1"))//dash function
+        {
+            _rb.AddForce(this.transform.forward * 10, ForceMode.Impulse);
+        }
     }
 
     void FixedUpdate()
